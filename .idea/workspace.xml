@@ -1,18 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="488a6f20-62a3-46e5-a4fe-bc8d2f6620ab" name="Changes" comment="" />
+    <list default="true" id="488a6f20-62a3-46e5-a4fe-bc8d2f6620ab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/activate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/activate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/activate.fish" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/activate.nu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/activate.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/activate_this.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/deactivate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/pip-3.11.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/pip.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/pip3.11.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/pip3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/pydoc.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/python.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/pythonw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/wheel-3.11.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/wheel.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/wheel3.11.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/wheel3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_log_in_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_log_out_of_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_registration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_section_constructor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_transfer_from_personal_account_to_constructor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_transfer_personal_account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Sprint_5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sprint_5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2jop2M7Fib0KH0mLIP2SnzZ8ZFj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,11 +68,29 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests in tast_log_out_of_account.py.executor": "Run",
+    "Python tests.Python tests in tast_transfer_personal_account.py.executor": "Run",
+    "Python tests.Python tests in test____.py.executor": "Run",
+    "Python tests.Python tests in test_log_in_account.py.executor": "Run",
+    "Python tests.Python tests in test_log_out_of_account.py.executor": "Run",
+    "Python tests.Python tests in test_registration.py.executor": "Run",
+    "Python tests.Python tests in test_section_constructor.py.executor": "Run",
+    "Python tests.Python tests in test_transfer_from_personal_account_to_constructor.py.executor": "Run",
+    "Python tests.Python tests in test_transfer_personal_account.py.executor": "Run",
+    "Python.locators.executor": "Run",
+    "Python.tast_log_out_of_account.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "develop",
+    "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "C:/Users/Lenov0/PycharmProjects/Sprint_5/Scripts"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenov0\PycharmProjects\Sprint_5" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
