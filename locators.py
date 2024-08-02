@@ -35,8 +35,7 @@ class Authorization:  # Авторизация
     BUTTON = (By.XPATH, "//button[text() = 'Войти']")
 
     # кнопка 'Выход':
-    BUTTON_EXIT = (By.XPATH, "//button[(@class = 'Account_button__14Yp3 text text_type_main-medium "
-                             "text_color_inactive') and text() = 'Выход']")
+    BUTTON_EXIT = (By.XPATH, "//button[text() = 'Выход']")
 
 
 class AuthFormElements:  # Форма аутентификации

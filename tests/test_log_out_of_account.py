@@ -20,7 +20,7 @@ class TestLogOut:
         driver.find_element(*MainPageLocators.PERSONAL_ACCOUNT_BUTTON).click()
 
         # Выйти из личного кабинета (найти кнопку "Выход" и кликнуть по ней):
-        WebDriverWait(driver, 10).until(ec.element_to_be_clickable(Authorization.BUTTON_EXIT)).click()
+        WebDriverWait(driver, 3).until(ec.element_to_be_clickable(Authorization.BUTTON_EXIT)).click()
 
         # Проверка выхода, должна загрузиться страница с формой авторизации:
         auth_form = WebDriverWait(driver, 3).until(ec.visibility_of_element_located(AuthFormElements.AUTH_FORM))
