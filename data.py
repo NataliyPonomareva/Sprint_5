@@ -1,5 +1,5 @@
 # Ссылка на приложение
-from tests.helpers import HelpEmail, HelpPassword
+from helpers import HelpEmail, HelpPassword
 
 DRIVER = 'https://stellarburgers.nomoreparties.site/'
 
