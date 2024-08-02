@@ -16,9 +16,9 @@ class MainPageLocators:  # Указатели главной страницы
 
 
 class RegistrationPageLocators:  # Страница регистрации
-    NAME_INPUT = (By.XPATH, '//*[@id="root"]/div/main/div/form/fieldset[1]/div/div/input')  # поле "Имя"
-    EMAIL_INPUT = (By.XPATH, '//*[@id="root"]/div/main/div/form/fieldset[2]/div/div/input')  # поле "Email"
-    PASSWORD_INPUT = (By.XPATH, '//*[@id="root"]/div/main/div/form/fieldset[3]/div/div/input')  # поле "Пароль"
+    NAME_INPUT = (By.XPATH, ".//fieldset[1]//input")  # поле "Имя"
+    EMAIL_INPUT = (By.XPATH, './/fieldset[2]//input')  # поле "Email"
+    PASSWORD_INPUT = (By.XPATH, './/fieldset[3]//input')  # поле "Пароль"
     REGISTER_BUTTON = (By.XPATH, "//button[text() = 'Зарегистрироваться']")  # кнопка "Зарегистрироваться"
     AUTH_LINK = (By.XPATH, "//a[text() = 'Войти']")  # ссылка "Войти"
     ERROR_MESSAGE = (By.XPATH, "//p[text() = 'Некорректный пароль']")  # сообщение об ошибке Некорректный пароль

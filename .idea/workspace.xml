@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="488a6f20-62a3-46e5-a4fe-bc8d2f6620ab" name="Changes" comment="Из папки tests вынесла файлы data, helpers, locators.">
+    <list default="true" id="488a6f20-62a3-46e5-a4fe-bc8d2f6620ab" name="Changes" comment="Изменила значение локатора CONSTRUCTOR_PAGE:&#10;CONSTRUCTOR_PAGE = (By.XPATH, &quot;//button[text()='Оформить заказ']&quot;)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,11 +123,20 @@
       <option name="project" value="LOCAL" />
       <updated>1722624456251</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Изменила значение локатора CONSTRUCTOR_PAGE:&#10;CONSTRUCTOR_PAGE = (By.XPATH, &quot;//button[text()='Оформить заказ']&quot;)">
+      <option name="closed" value="true" />
+      <created>1722625516271</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722625516271</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Из папки tests вынесла файлы data, helpers, locators." />
-    <option name="LAST_COMMIT_MESSAGE" value="Из папки tests вынесла файлы data, helpers, locators." />
+    <MESSAGE value="Изменила значение локатора CONSTRUCTOR_PAGE:&#10;CONSTRUCTOR_PAGE = (By.XPATH, &quot;//button[text()='Оформить заказ']&quot;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменила значение локатора CONSTRUCTOR_PAGE:&#10;CONSTRUCTOR_PAGE = (By.XPATH, &quot;//button[text()='Оформить заказ']&quot;)" />
   </component>
 </project>
