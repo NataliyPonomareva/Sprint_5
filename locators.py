@@ -5,7 +5,7 @@ class MainPageLocators:  # Указатели главной страницы
     PERSONAL_ACCOUNT_BUTTON = (By.XPATH, "//p[text() = 'Личный Кабинет']")  # "Личный кабинет"
     LOG_IN_ACCOUNT_BUTTON = (By.XPATH, "//button[text() = 'Войти в аккаунт']")   # кнопка "Войти в аккаунт"
     CONSTRUCTOR = (By.XPATH, "//p[text() = 'Конструктор']")  # "Конструктор"
-    CONSTRUCTOR_PAGE = (By.XPATH, "//main[(@class = 'App_componentContainer__2JC2W')]")  # Страница конструктора
+    CONSTRUCTOR_PAGE = (By.XPATH, "//button[text()='Оформить заказ']")  # Страница конструктора
     CONSTRUCTOR_BUN = (By.XPATH, "//span[text() = 'Булки'")  # Раздел конструктора "Булки"
     BUNS = (By.XPATH, '//*[@id="root"]/div/main/section[1]/div[1]/div[1]')  # Раздел конструктора "Булки"
     BUNS_H2 = (By.XPATH, "//h2[text()='Булки']")  # Заголовок "Булки" в ленте

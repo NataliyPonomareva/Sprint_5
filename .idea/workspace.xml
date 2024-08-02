@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="488a6f20-62a3-46e5-a4fe-bc8d2f6620ab" name="Changes" comment="Наталья Пономарева___готовые UI-тесты к проекту 10го спринта">
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers.py" afterDir="false" />
+    <list default="true" id="488a6f20-62a3-46e5-a4fe-bc8d2f6620ab" name="Changes" comment="Из папки tests вынесла файлы data, helpers, locators.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/helpers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/locators.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +57,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenov0\PycharmProjects\Sprint_5\tests" />
       <recent name="C:\Users\Lenov0\PycharmProjects\Sprint_5" />
     </key>
   </component>
@@ -111,6 +106,27 @@
       <option name="presentableId" value="Default" />
       <updated>1722063076031</updated>
     </task>
+    <task id="LOCAL-00001" summary="Из папки tests вынесла файлы data, helpers, locators.">
+      <option name="closed" value="true" />
+      <created>1722624229548</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722624229548</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Из папки tests вынесла файлы data, helpers, locators.">
+      <option name="closed" value="true" />
+      <created>1722624456251</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722624456251</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Из папки tests вынесла файлы data, helpers, locators." />
+    <option name="LAST_COMMIT_MESSAGE" value="Из папки tests вынесла файлы data, helpers, locators." />
   </component>
 </project>
