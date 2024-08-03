@@ -16,8 +16,8 @@ class TestLogOut:
         driver.find_element(*Authorization.PASSWORD).send_keys(data.PASSWORD)
         driver.find_element(*Authorization.BUTTON).click()
 
-        # Войти в личный кабинет:
-        driver.find_element(*MainPageLocators.PERSONAL_ACCOUNT_BUTTON).click()
+        # Войти в Личный кабинет:
+        WebDriverWait(driver, 3).until(ec.element_to_be_clickable(MainPageLocators.PERSONAL_ACCOUNT_BUTTON)).click()
 
         # Выйти из личного кабинета (найти кнопку "Выход" и кликнуть по ней):
         WebDriverWait(driver, 3).until(ec.element_to_be_clickable(Authorization.BUTTON_EXIT)).click()

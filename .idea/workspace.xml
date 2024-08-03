@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="488a6f20-62a3-46e5-a4fe-bc8d2f6620ab" name="Changes" comment="Изменила значение локатора BUTTON_EXIT (был составной локатор, заменила на простой)">
+    <list default="true" id="488a6f20-62a3-46e5-a4fe-bc8d2f6620ab" name="Changes" comment="Добавила условное ожидание на загрузку страницы конструктора (изменен код строки с переменной constructor_page)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_log_in_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_log_in_account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_log_out_of_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_log_out_of_account.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722627809028</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Добавила условное ожидание на загрузку страницы конструктора (изменен код строки с переменной constructor_page)">
+      <option name="closed" value="true" />
+      <created>1722691642505</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722691642505</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -156,6 +163,7 @@
     <MESSAGE value="Изменила значение локатора CONSTRUCTOR_PAGE:&#10;CONSTRUCTOR_PAGE = (By.XPATH, &quot;//button[text()='Оформить заказ']&quot;)" />
     <MESSAGE value="Изменены значения локаторов поиска полей для регистрации пользователя на более стабильные:&#10;NAME_INPUT, EMAIL_INPUT, PASSWORD_INPUT." />
     <MESSAGE value="Изменила значение локатора BUTTON_EXIT (был составной локатор, заменила на простой)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменила значение локатора BUTTON_EXIT (был составной локатор, заменила на простой)" />
+    <MESSAGE value="Добавила условное ожидание на загрузку страницы конструктора (изменен код строки с переменной constructor_page)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавила условное ожидание на загрузку страницы конструктора (изменен код строки с переменной constructor_page)" />
   </component>
 </project>
