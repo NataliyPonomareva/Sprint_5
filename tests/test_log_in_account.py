@@ -1,5 +1,3 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 
@@ -18,7 +16,7 @@ class TestLogIn:
         driver.find_element(*Authorization.BUTTON).click()
 
         # Проверка загрузки cтраницы конструктора
-        constructor_page = driver.find_element(*MainPageLocators.CONSTRUCTOR_PAGE)
+        constructor_page = WebDriverWait(driver, 3).until(ec.visibility_of_element_located(MainPageLocators.CONSTRUCTOR_PAGE))
         assert constructor_page.is_displayed()
 
     def test_login_via_personal_account_button(self, driver):  # вход через кнопку «Личный кабинет»
@@ -31,7 +29,7 @@ class TestLogIn:
         driver.find_element(*Authorization.BUTTON).click()
 
         # Проверка загрузки cтраницы конструктора
-        constructor_page = driver.find_element(*MainPageLocators.CONSTRUCTOR_PAGE)
+        constructor_page = WebDriverWait(driver, 3).until(ec.visibility_of_element_located(MainPageLocators.CONSTRUCTOR_PAGE))
         assert constructor_page.is_displayed()
 
     def test_login_via_registration_form(self, driver):  # вход через кнопку в форме регистрации
@@ -50,7 +48,7 @@ class TestLogIn:
         driver.find_element(*Authorization.BUTTON).click()
 
         # Проверка загрузки cтраницы конструктора
-        constructor_page = driver.find_element(*MainPageLocators.CONSTRUCTOR_PAGE)
+        constructor_page = WebDriverWait(driver, 3).until(ec.visibility_of_element_located(MainPageLocators.CONSTRUCTOR_PAGE))
         assert constructor_page.is_displayed()
 
     def test_login_via_password_recovery_form(self, driver):  # вход через кнопку в форме восстановления пароля
@@ -72,5 +70,5 @@ class TestLogIn:
         driver.find_element(*Authorization.BUTTON).click()
 
         # Проверка загрузки cтраницы конструктора
-        constructor_page = driver.find_element(*MainPageLocators.CONSTRUCTOR_PAGE)
+        constructor_page = WebDriverWait(driver, 3).until(ec.visibility_of_element_located(MainPageLocators.CONSTRUCTOR_PAGE))
         assert constructor_page.is_displayed()

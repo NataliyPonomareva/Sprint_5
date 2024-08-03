@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="488a6f20-62a3-46e5-a4fe-bc8d2f6620ab" name="Changes" comment="Изменены значения локаторов поиска полей для регистрации пользователя на более стабильные:&#10;NAME_INPUT, EMAIL_INPUT, PASSWORD_INPUT." />
+    <list default="true" id="488a6f20-62a3-46e5-a4fe-bc8d2f6620ab" name="Changes" comment="Изменила значение локатора BUTTON_EXIT (был составной локатор, заменила на простой)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_log_in_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_log_in_account.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,27 +36,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests in tast_log_out_of_account.py.executor": "Run",
-    "Python tests.Python tests in tast_transfer_personal_account.py.executor": "Run",
-    "Python tests.Python tests in test____.py.executor": "Run",
-    "Python tests.Python tests in test_log_in_account.py.executor": "Run",
-    "Python tests.Python tests in test_log_out_of_account.py.executor": "Run",
-    "Python tests.Python tests in test_registration.py.executor": "Run",
-    "Python tests.Python tests in test_section_constructor.py.executor": "Run",
-    "Python tests.Python tests in test_transfer_from_personal_account_to_constructor.py.executor": "Run",
-    "Python tests.Python tests in test_transfer_personal_account.py.executor": "Run",
-    "Python.conftest.executor": "Run",
-    "Python.locators.executor": "Run",
-    "Python.tast_log_out_of_account.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
-    "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "C:/Users/Lenov0/PycharmProjects/Sprint_5"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in tast_log_out_of_account.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in tast_transfer_personal_account.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test____.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_log_in_account.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_log_out_of_account.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_registration.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_section_constructor.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_transfer_from_personal_account_to_constructor.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_transfer_personal_account.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conftest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.locators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tast_log_out_of_account.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenov0/PycharmProjects/Sprint_5&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lenov0\PycharmProjects\Sprint_5\tests" />
@@ -136,13 +140,22 @@
       <option name="project" value="LOCAL" />
       <updated>1722627436404</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Изменила значение локатора BUTTON_EXIT (был составной локатор, заменила на простой)">
+      <option name="closed" value="true" />
+      <created>1722627809028</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722627809028</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Из папки tests вынесла файлы data, helpers, locators." />
     <MESSAGE value="Изменила значение локатора CONSTRUCTOR_PAGE:&#10;CONSTRUCTOR_PAGE = (By.XPATH, &quot;//button[text()='Оформить заказ']&quot;)" />
     <MESSAGE value="Изменены значения локаторов поиска полей для регистрации пользователя на более стабильные:&#10;NAME_INPUT, EMAIL_INPUT, PASSWORD_INPUT." />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменены значения локаторов поиска полей для регистрации пользователя на более стабильные:&#10;NAME_INPUT, EMAIL_INPUT, PASSWORD_INPUT." />
+    <MESSAGE value="Изменила значение локатора BUTTON_EXIT (был составной локатор, заменила на простой)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменила значение локатора BUTTON_EXIT (был составной локатор, заменила на простой)" />
   </component>
 </project>
