@@ -1,31 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="488a6f20-62a3-46e5-a4fe-bc8d2f6620ab" name="Changes" comment="" />
+    <list default="true" id="488a6f20-62a3-46e5-a4fe-bc8d2f6620ab" name="Changes" comment="Добавила условное ожидание на загрузку страницы конструктора (изменен код строки с переменной constructor_page)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_log_out_of_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_log_out_of_account.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2jop2M7Fib0KH0mLIP2SnzZ8ZFj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in tast_log_out_of_account.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in tast_transfer_personal_account.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test____.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_log_in_account.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_log_out_of_account.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_registration.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_section_constructor.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_transfer_from_personal_account_to_constructor.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_transfer_personal_account.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conftest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.locators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tast_log_out_of_account.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenov0/PycharmProjects/Sprint_5&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenov0\PycharmProjects\Sprint_5\tests" />
+      <recent name="C:\Users\Lenov0\PycharmProjects\Sprint_5" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Lenov0\PycharmProjects\Sprint_5\tests\conftest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.conftest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -42,6 +107,63 @@
       <option name="presentableId" value="Default" />
       <updated>1722063076031</updated>
     </task>
+    <task id="LOCAL-00001" summary="Из папки tests вынесла файлы data, helpers, locators.">
+      <option name="closed" value="true" />
+      <created>1722624229548</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722624229548</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Из папки tests вынесла файлы data, helpers, locators.">
+      <option name="closed" value="true" />
+      <created>1722624456251</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722624456251</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Изменила значение локатора CONSTRUCTOR_PAGE:&#10;CONSTRUCTOR_PAGE = (By.XPATH, &quot;//button[text()='Оформить заказ']&quot;)">
+      <option name="closed" value="true" />
+      <created>1722625516271</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722625516271</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Изменены значения локаторов поиска полей для регистрации пользователя на более стабильные:&#10;NAME_INPUT, EMAIL_INPUT, PASSWORD_INPUT.">
+      <option name="closed" value="true" />
+      <created>1722627436404</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722627436404</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Изменила значение локатора BUTTON_EXIT (был составной локатор, заменила на простой)">
+      <option name="closed" value="true" />
+      <created>1722627809028</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722627809028</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Добавила условное ожидание на загрузку страницы конструктора (изменен код строки с переменной constructor_page)">
+      <option name="closed" value="true" />
+      <created>1722691642505</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722691642505</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Из папки tests вынесла файлы data, helpers, locators." />
+    <MESSAGE value="Изменила значение локатора CONSTRUCTOR_PAGE:&#10;CONSTRUCTOR_PAGE = (By.XPATH, &quot;//button[text()='Оформить заказ']&quot;)" />
+    <MESSAGE value="Изменены значения локаторов поиска полей для регистрации пользователя на более стабильные:&#10;NAME_INPUT, EMAIL_INPUT, PASSWORD_INPUT." />
+    <MESSAGE value="Изменила значение локатора BUTTON_EXIT (был составной локатор, заменила на простой)" />
+    <MESSAGE value="Добавила условное ожидание на загрузку страницы конструктора (изменен код строки с переменной constructor_page)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавила условное ожидание на загрузку страницы конструктора (изменен код строки с переменной constructor_page)" />
   </component>
 </project>
